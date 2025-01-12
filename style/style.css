@@ -46,12 +46,15 @@ body{
     font-size: 40px;
     color: #0E0E0E;
     padding: 15px 0;
+    margin-top: 70px;
 }
 .feture-description{
     font-size: 16px;
     font: 300;
-    color: #0E0E0E;
-    padding: 15px 0;
+    color: #B30E0E0E;
+    margin-bottom: 20px;
+    
+    
 }
 .feture-container{
     display: flex;
@@ -64,6 +67,7 @@ body{
     background-color: #c6e4dc;
     padding:32px 32px;
     border-radius: 12px;
+
     
 }
 .feture-title-0{
@@ -154,7 +158,9 @@ body{
     font-size: 16px;
     color: #0E0E0E;
     background-image: url(../assets/quote-bg.png);
-    background-repeat: repeat-y;
+    background-color: white;
+    background-repeat:no-repeat;
+    background-position: left;
    
 }
 .name{
@@ -170,6 +176,19 @@ body{
 }
 
 /* recent news */
+.news-1{
+    font: bold;
+    font-size: 40px;
+    color: #0E0E0E;
+    text-align: start;
+    margin-top: 40px;
+}
+.recent-1{
+    font-size: 16px;
+    font: 300;
+    color: #0E0E0E;
+    padding: 15px 0;
+}
 .news-part{
     display: flex;
     padding: 48px 48px;
@@ -255,12 +274,14 @@ body{
     font-size: 40px;
     color: #0E0E0E;
     text-align: center;
+    margin-top: 50px;
 }
 .donate-description{
     font: 100;
     font-size: 16px;
     color: #0E0E0E;
-    text-align: center; 
+    text-align: center;
+    margin-top: 20px; 
 }
 .parent{
     padding: 15px;
@@ -299,10 +320,12 @@ background-color: #c6e4d6;
     height: 50px;
     padding-top: 13px;
     opacity: 50%;
+    margin-top: 30px;
+    font-size: 18px;
 }
 .button-more{
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     font: 500;
     color: #ffffff;
     background-color: #006A50;
@@ -310,8 +333,39 @@ background-color: #c6e4d6;
     padding: 5px 7px;
     border: none;
     margin: 20px;
+    margin-top: 30px;
 }
 .all-tag{
     text-align: center;
+}
+.time{
+    display: flex;
+}
+.pera{
+    padding-left: 10px;
+}
+.time-1{
+    display: flex; 
+}
+.pera-1{
+    padding-left: 10px;
+}
+.demo-taka{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid silver;
 
+}
+.taka-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.taka-color{
+    background-color: #c6e4d6;
 }

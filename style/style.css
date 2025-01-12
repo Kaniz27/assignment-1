@@ -47,7 +47,7 @@ body{
     color: #0E0E0E;
     padding: 15px 0;
 }
-feture-description{
+.feture-description{
     font-size: 16px;
     font: 300;
     color: #0E0E0E;
@@ -145,12 +145,17 @@ feture-description{
 }
 .details{
     background-color: #ffffff;
-    padding: 20px 10px;
+    padding: 30px 10px;
+    
+
 }
 .description-more{
     font: 100;
     font-size: 16px;
     color: #0E0E0E;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: repeat-y;
+   
 }
 .name{
     font: 400;
@@ -161,6 +166,7 @@ feture-description{
     font-size: 16px;
     font: 200;
     color: #0E0E0E;
+    
 }
 
 /* recent news */

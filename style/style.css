@@ -45,9 +45,101 @@ body{
     font: 400;
     font-size: 40px;
     color: #0E0E0E;
+    padding: 15px 0;
 }
-.feture-description{
+feture-description{
     font-size: 16px;
     font: 300;
     color: #0E0E0E;
+    padding: 15px 0;
+}
+.feture-container{
+    display: flex;
+    padding: 15px 0;
+    gap: 30px;
+    
+}
+/*  */
+.feture-container-0{
+    background-color: #c6e4dc;
+    padding:32px 32px;
+    border-radius: 12px;
+    
+}
+.feture-title-0{
+    font: 20px;
+    font-size: bold;
+    color: #0E0E0E;
+}
+
+.feture-description-0{
+    font-size: 16px;
+    font: 300;
+    color: #0E0E0E;
+    padding: 15px 0;
+}
+
+.feture-button{
+    font-size: 16px;
+    font: 500;
+    color: #ffffff;
+    background-color: #5490f5;
+    border-radius: 4px;
+    padding: 5px 7px;
+    border: none;
+}
+/* fdft */
+.feture-container-1{
+    background-color: #d5e1f5;
+    padding: 32px 32px;
+    border-radius: 12px;
+}
+.feture-title-0{
+    font: 20px;
+    font-size: bold;
+    color: #0E0E0E;
+}
+.feture-description-1{
+    font-size: 16px;
+    font: 300;
+    color: #0E0E0E;
+    padding: 15px 0;
+}
+
+.feture-button-1{
+    font-size: 16px;
+    font: 500;
+    color: #ffffff;
+    background-color: #09a15c;
+    border-radius: 4px;
+    padding: 5px 7px;
+    border: none;
+}
+/* fdff */
+.feture-container-2{
+    background-color: #f7ebcf;
+    border-radius: 12px;
+    padding: 32px 32px;
+}
+.feture-title-2{
+    font: bold;
+    font-size: 20px;
+    color: #0E0E0E;
+
+}
+.feture-description-2{
+    font-size: 16px;
+    font: 300;
+    color: #0E0E0E;
+    padding: 15px 0;
+}
+
+.feture-button-2{
+    font-size: 16px;
+    font: 500;
+    color: #ffffff;
+    background-color: #ffc239;
+    border-radius: 4px;
+    padding: 5px 7px;
+    border: none;
 }

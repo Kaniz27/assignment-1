@@ -10,261 +10,44 @@ body{
     width: 80%;
     margin: 0 auto;
 }
-
-
-/* shared style */
-
-.text-primary{
-    color: orange;
-}
-.about-items
-.btn-primary{
-background-color: #ac5110;
-font-weight: bold;
-color: white;
-padding: 18px 20px;
-border-radius: 5px;
-font-size: 10px;
-border: none;
-
-}
-.section-title{
-   font-size: 35px;
-   font-weight: bold;
-   color: #181818;
-   text-align: center;
-}
-.section-description{
-    font-size: 18px;
-    color: rebeccapurple
-}
-.text-center{
-    text-align: left;
-}
-
-/* nav */
-
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 50px 200px;
-}
-.nav-title{
-    font-weight: 800;
-    font-size: 45px;
-
-}
-
-nav ul li{
-    list-style: none;
-    margin-right: 50px;
-    
-}
-nav li a{
-    text-decoration: none;
-    font-family: 20px;
-    
-}
-nav ul{
-    display: flex;
-    align-items: center;
-}
 /* banner */
 .banner{
     display: flex;
     justify-content: space-between;
+    background-color:#c6e4dc;
+    border-radius: 10px;
+    padding: 90px 45px;
     
-    background-color: green;
-
-}
-.banner-content{
-    max-width: 580px;
-    padding: 30px;
-    font-size: 20px;
-
-}
-.benner-greatings{
-    font-size: 45px;
-    font-weight: 600;
-    padding: 30px;
-    font-size: 30px;
+    }
+.banner-sub-title{
+    color: #8ca197;
+    font-size: 24px;
+    font-weight: 500;
 }
 .banner-title{
-    font-weight: bold;
-    font-size: 85px;
-    padding: 30px;
+    font: bold;
+    font-size: 56px;
+    margin: 20px 0;
+}
+
+.btn-primary{
+    background-color: #006a50;
     font-size: 18px;
+    font: 700;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
 }
-.banner-description{
-    font-size: 30px;
+/* feture */
+.feture-title{
+    font: 400;
+    font-size: 40px;
+    color: #0E0E0E;
 }
-.banner-profile-pic{
-    width: 580px;
-}
-/* main */
-main{
-    max-width: 1140px;
-    margin: 0 auto;
-    
-    
-}
-main section{
-    margin-top: 130px;
-    margin-bottom: 130px;
-}
-/* about */
-
-.about{
-    border-radius: 10px;
-    padding: 130px 150px;
-    text-align: left;
-    margin-top: 130px;
-
-}
-.about-items{
-    display: flex;
-    justify-content: space-between;
-}
-.item-description{
-    font-weight: 600;
-}
-/* skills */
-.skills-container{
-    display: flex;
-    gap: 24px;
-
-}
-
-
-/* resume */
-.resume-container{
-display: flex;
-}
-.ecperience-sub-title{
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 20px;
-}
-
-
-/* fgdfhf */
-.skills-container-0{
-    background-color: rgb(146, 127, 255);
-    padding: 20px;
-
-}
-.button{
-    background-color: yellow;
-}
-.skills-container-1{
-    background-color: rgb(18, 186, 216);
-    padding: 20px;
-}
-
-.button-1{
-    background-color: rgb(124, 11, 189);
-}
-
-.skills-container-2{
-    background-color:bisque;
-    padding: 20px;
-
-}
-.button-2{
-    background-color: rgb(194, 114, 10);
-}
-/* dtyfuyy */
- .bal{
-    display: flex;
-    justify-content: space-between;
-    padding: 30px;
-    background-color: aquamarine;
-    gap: 50px;
-
-}
-.bal-1{
-    display: flex;
-    justify-content: space-between;
-    padding: 30px;
-    background-color: green;
-    gap: 50px;
-
-
-}
-    
- .pera{
-    font-size: 20px;
-    
- }
- .chobi{
-    border-radius: 20px;
-
-    
-    
-    
- }
- .donate,.donate-pera{
-    text-align: center;
-    
- }
- 
- .foot-more{
-    font-size: 30px;
-    color: #ac5110;
-    border-radius: 30px;
- }
- .foottaka{
-    font-size: 30px;
-    border: 20px solid color(srgb red rgb(20, 185, 20) blue);
-    border: #181818;
- }
- .inputtag{
-    text-align: center;
- }
- .parent{
-    padding: 25px;
-    
-    display: flex;
-    gap: 30px;
-    justify-content:space-around;
-    height: 350px;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    border-radius: 10px;
- }
- .child{
-    border: 2px solid black;
-    
-    padding: 20px;
-    margin: 10px 0;
-    font-size: 28px;
-    border-radius: 15px;
-    
-
-}
-.child-more{
-    border: 2px solid black;
-    
-padding: 20px;
-margin: 10px 0;
-font-size: 28px;
-border-radius: 15px;
-background-color: wheat;
-
-}
-.box{
-    border: 2px solid black;
-    
-    padding: 20px;
-    margin: 10px 0;
-    font-size: 28px;
-    border-radius: 15px;
-    background-color:wheat;
-    
-    
-}
-.button-more{
-    text-align: center;
+.feture-description{
+    font-size: 16px;
+    font: 300;
+    color: #0E0E0E;
 }
